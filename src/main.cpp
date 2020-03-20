@@ -107,7 +107,6 @@ bool within(float sensorvalue, float compvalue, float tolerance) {
 bool timeout(vex::motor motorName, float timeoutTime){
   // the idea here was to make the motors go to holding after a certain time period to stop the claw motors from overheating
   // every time I tried to code it I got stuck in an infinite loop
-  // and COVID-19 killed any future attempts at it
   return false;
 }
 
